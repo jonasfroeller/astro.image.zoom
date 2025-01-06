@@ -1,7 +1,9 @@
 {
-  "name": "astro-image-zoom",
+  "name": "astro-light-box",
   "version": "0.0.0",
-  "description": "A astro component template",
+  "description": "An Astro component for photoswipe's lightbox.",
+  "repository": "https://github.com/jonasfroeller/astro.image.lightbox",
+  "license": "MIT",
   "type": "module",
   "exports": {
     ".": "./index.ts"
