@@ -1,14 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import PhotoswipeImage from '~'
+import { AstroPhotoSwipeLightboxContainer } from '~'
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<center><h1><span class="text-gradient">astro.image.zoom</span></h1></center>
 		<div style="display: block; margin-left: auto; margin-right: auto; width: fit-content;">
-			<PhotoswipeImage directory="demo" />
+			<AstroPhotoSwipeLightboxContainer directory="demo" />
 		</div>
 		<ul role="list" class="link-card-grid">
 			<Card
