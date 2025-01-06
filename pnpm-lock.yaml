@@ -41,6 +41,9 @@ importers:
       mocha:
         specifier: ^11.0.1
         version: 11.0.1
+      photoswipe:
+        specifier: ^5.4.4
+        version: 5.4.4
       prettier:
         specifier: ^3.4.2
         version: 3.4.2
@@ -1716,6 +1719,10 @@ packages:
   pathval@2.0.0:
     resolution: {integrity: sha512-vE7JKRyES09KiunauX7nd2Q9/L7lhok4smP9RZTDeD4MVs72Dp2qNFVz39Nz5a0FVEW0BJR6C0DYrq6unoziZA==}
     engines: {node: '>= 14.16'}
+
+  photoswipe@5.4.4:
+    resolution: {integrity: sha512-WNFHoKrkZNnvFFhbHL93WDkW3ifwVOXSW3w1UuZZelSmgXpIGiZSNlZJq37rR8YejqME2rHs9EhH9ZvlvFH2NA==}
+    engines: {node: '>= 0.12.0'}
 
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
@@ -4132,6 +4139,8 @@ snapshots:
   pathe@1.1.2: {}
 
   pathval@2.0.0: {}
+
+  photoswipe@5.4.4: {}
 
   picocolors@1.1.1: {}
 

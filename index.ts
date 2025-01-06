@@ -4,7 +4,6 @@
 // export { HelloWorld } from "./src/main.ts"
 // export type { HelloWorldResult } from "./src/types.ts"
 
-// @ts-expect-error
-import Component from './src/Component.astro';
+import AstroImageZoom from './src/PhotoSwipeImage.astro';
 
-export default Component;
+export default AstroImageZoom;
